@@ -2,13 +2,13 @@ package org.example;
 
 public class Sum {
     public static void main(String[] args) {
-        int indice = 13, soma = 0, k = 0;
+        int index = 13, sum = 0, k = 0;
 
-        while (k < indice){
+        while (k < index){
             k++;
 
-            soma = soma + k;
+            sum = sum + k;
         }
-        System.out.println(soma);
+        System.out.println(sum);
     }
 }
