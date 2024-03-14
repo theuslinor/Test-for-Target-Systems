@@ -10,7 +10,7 @@ public static void main(String[] args) {
     int numberToCheck = input.nextInt();
 
     if (isFibonacci(numberToCheck)) {
-        System.out.println("The number " + numberToCheck + " belong to teh Fibonacci sequence.");
+            System.out.println("The number " + numberToCheck + " belong to teh Fibonacci sequence.");
     } else {
         System.out.println("The number " + numberToCheck + " does not belong to the Fibonacci sequence.");
     }
@@ -29,7 +29,6 @@ public static void main(String[] args) {
             int next = a + b;
             a = b;
             b = next;
-            System.out.println(next);
         }
         return false;
     }
