@@ -29,6 +29,7 @@ public static void main(String[] args) {
             int next = a + b;
             a = b;
             b = next;
+            System.out.println(next);
         }
         return false;
     }
